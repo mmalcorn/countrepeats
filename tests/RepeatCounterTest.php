@@ -18,7 +18,21 @@
             $this->assertEquals($expected_count, $result);
         }
 
-        function
+        function testTwoCount()
+        {
+            //Arrange
+            $input_word = "cat";
+            $input_sentence = "The cat is a cat";
+            $expected_count = 2;
+            $test_instance = new RepeatCounter($input_word, $input_sentence);
+
+            //Act
+            $result = $test_instance->countRepeats();
+
+            //Assert
+            $this->assertEquals($expected_count, $result);
+        }
+
    }
 
 ?>

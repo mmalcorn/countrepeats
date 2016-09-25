@@ -11,14 +11,12 @@ Do not refer to GitHub repos from present or former students or staff as referen
 
 # _Word Counter_
 
-####_09/23/2016_
+#### _09/23/2016_
 
 #### By _**Meredith Alcorn**_
 
 
 ## Description
-
-__
 
 
 ## Setup/Installation Requirements
@@ -44,23 +42,14 @@ __
 
 ## Specs
 
-  ### 1. User enters a word to search for within a sentence, and returns the number of times that word appears within the sentence.
-  *_Input: "The cat", "cat"_
-  *_Output: '1'_
+    ### 1. User enters a word to search for within a sentence that contains the word once, and the number of times that word appears within that sentence is 1.
+    * _Input: "The cat", "cat"_
+    * _Output: 1_
 
-  *
-  *
-  *
+    ### 2. User enters a word to search for within a sentence that contains the word twice, and the number of times that word appears within that sentence is 2.
 
-  *
-  *
-  *
-
-  *
-  *
-  *
-
-
+    * _Input: "The cat is a cat", "cat"_
+    * _Output: 2_
 
 ## Known Bugs
 
