@@ -1,14 +1,3 @@
-<!-- Word Frequency
-Create a website in Silex that returns how frequently a word appears in a given string. The user should input both the word and the string of words to check. Check for full word matches only.
-
-Before writing any code, write plain English specs in a text file, just like we've done in class. Commit these specs before coding.
-Each spec should include specific input and output, and a description explaining why you chose these values, and the simplest way to test the behavior your spec addresses.
-After creating English specs, Translate them one-by-one into PHPUnit test method. After writing a test method, make it pass. Commit as you go, and do not start writing your Silex app until all tests pass.
-Use your tests to create a RepeatCounter class. It should contain a CountRepeats() method that takes two inputs: The word the user is searching for, and the string they are searching within. Your method should return the number of times the chosen word appears in the sentence.
-After writing your method, create a Silex app to demonstrate it working. It should have 2 pages: One to present the user with a form asking for 2 strings: the word to search for, and the sentence they want to search. After the form is submitted, call the method you wrote and display the results on a second page.
-Do not use regular expressions.
-Do not refer to GitHub repos from present or former students or staff as reference. All work must be clearly identifiable as your own. -->
-
 # _Word Counter_
 
 #### _09/23/2016_
@@ -18,6 +7,7 @@ Do not refer to GitHub repos from present or former students or staff as referen
 
 ## Description
 
+A website in Silex that returns how frequently a word appears in a given string. A user can input both the word and the string of words to check.
 
 ## Setup/Installation Requirements
 
@@ -42,19 +32,23 @@ Do not refer to GitHub repos from present or former students or staff as referen
 
 ## Specs
 
-    ### 1. User enters a word to search for within a sentence that contains the word once, and the number of times that word appears within that sentence is 1.
+    ### 1. User enters a word to search for within a sentence that contains the word once. The number of times that word appears within the sentence is 1.
     * _Input: "The cat", "cat"_
     * _Output: 1_
 
-    ### 2. User enters a word to search for within a sentence that contains the word twice, and the number of times that word appears within that sentence is 2.
+    ### 2. User enters a word to search for within a sentence that contains the word twice. The number of times that word appears within the sentence is 2.
 
     * _Input: "The cat is a cat", "cat"_
     * _Output: 2_
 
+    ### 3. User enters a word to search for within a sentence that does not contain the word. The number of time that words appears within the sentence is 0.
+
+    * _Input: "The dog is a dog", "cat"_
+    * _Output: 0_
+
 ## Known Bugs
 
 _None yet_
-
 
 ## Support and Contact Details
 
@@ -66,3 +60,9 @@ _Please feel free to contact me at:_
 * _silex v~2.0_
 * _twig v~1.0_
 * _phpunit v5.5.*_
+
+### License
+
+*This application is licensed under the MIT license*
+
+Copyright (c) 2016 **Meredith Alcorn**

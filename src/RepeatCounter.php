@@ -6,7 +6,7 @@
        private $sentence;
        private $count;
 
-       function __construct($word, $sentence, $count=0)
+       function __construct($word, $sentence, $count = 0)
        {
            $this->word = $word;
            $this->sentence = $sentence;

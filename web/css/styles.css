@@ -1,0 +1,14 @@
+.result-style {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.result-count {
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+}
+
+.word {
+    color: orange;
+}
